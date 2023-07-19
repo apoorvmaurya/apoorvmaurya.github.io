@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -26,7 +26,8 @@ const greeting = {
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
-  portfolio_repository: "https://github.com/apoorvmaurya/apoorvmaurya.github.io",
+  portfolio_repository:
+    "https://github.com/apoorvmaurya/apoorvmaurya.github.io",
   githubProfile: "https://github.com/apoorvmaurya",
 };
 
@@ -308,7 +309,6 @@ const skills = {
     },
   ],
 };
-
 
 const degrees = {
   degrees: [
