@@ -1,7 +1,6 @@
 # This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
 # For more information see: https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
-
-name: Node.js Package Build and Publish
+name: Node.js Package Build and Publish Setup Node.js environment
 
 on:
   release:
@@ -32,7 +31,7 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 
-- name: Setup Node.js environment
+
   uses: actions/setup-node@v3.7.0
   with:
     # Set always-auth in npmrc.
