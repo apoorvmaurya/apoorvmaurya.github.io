@@ -1,8 +1,8 @@
 {
   "private": true,
   "name": "masterPortfolio",
-  "homepage": "https://apoorvmaurya.github.io",
   "version": "0.1.0",
+  "homepage": "https://apoorvmaurya.github.io",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
@@ -34,8 +34,7 @@
     "react-spring": "^8.0.27",
     "styled-components": "^5.1.1",
     "styletron-engine-atomic": "^1.4.6",
-    "styletron-react": "^5.2.7",
-    "vulnerable-package": "^2.0.1"
+    "styletron-react": "^5.2.7"
   },
   "devDependencies": {
     "@iconify/icons-logos": "^1.0.9",
